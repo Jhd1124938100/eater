@@ -24,7 +24,7 @@
             android:orientation="vertical">
 <com.bigkoo.convenientbanner.ConvenientBanner
     android:layout_width="match_parent"
-    android:layout_height="150dp"
+    android:layout_height="151dp"
     app:canLoop="true"
     android:id="@+id/home_vp"/>
 
