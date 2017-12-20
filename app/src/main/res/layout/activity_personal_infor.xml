@@ -17,8 +17,8 @@
             android:layout_width="30dp"
             android:layout_height="25dp"
             android:layout_marginLeft="20dp"
-            android:background="@drawable/back_icon"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back_icon" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -58,15 +58,16 @@
                 android:textColor="@color/White"
                 android:textSize="20sp" />
         </RelativeLayout>
+
         <com.makeramen.roundedimageview.RoundedImageView
             android:id="@+id/imageView1"
-            android:src="@drawable/person_head"
-            android:scaleType="centerCrop"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginLeft="35dp"
             android:layout_marginTop="110dp"
-            app:riv_oval="true"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/person_head"
+            app:riv_oval="true" />
     </RelativeLayout>
 
     <LinearLayout
@@ -171,64 +172,74 @@
         </RelativeLayout>
 
     </LinearLayout>
+
     <RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="60dp"
-    android:background="@color/White"
-    android:layout_marginTop="10dp">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="我的好友"
-        android:textSize="20sp"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="20dp"/>
-    <ImageButton
-        android:layout_width="35dp"
-        android:layout_height="25dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:background="@drawable/go_icon"
-        android:layout_marginRight="20dp"/>
-</RelativeLayout>
-    <RelativeLayout
+        android:id="@+id/rl_infor_friend"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/White"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:background="@color/White">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="朋友圈"
-            android:textSize="20sp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="20dp"
+            android:text="我的好友"
+            android:textSize="20sp" />
+
         <ImageButton
             android:layout_width="35dp"
             android:layout_height="25dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/go_icon"
-            android:layout_marginRight="20dp"/>
+            android:layout_marginRight="20dp"
+            android:background="@drawable/go_icon" />
     </RelativeLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/White"
-        android:layout_marginTop="10dp">
+        android:layout_marginTop="10dp"
+        android:background="@color/White">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="个人信息"
-            android:textSize="20sp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="20dp"
+            android:text="朋友圈"
+            android:textSize="20sp" />
+
         <ImageButton
             android:layout_width="35dp"
             android:layout_height="25dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/go_icon"
-            android:layout_marginRight="20dp"/>
+            android:layout_marginRight="20dp"
+            android:background="@drawable/go_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/White">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="个人信息"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/go_icon" />
     </RelativeLayout>
 </LinearLayout>
